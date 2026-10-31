@@ -77,6 +77,6 @@ export default function App() {
         <div className="below-card"><span>Just trying things out?</span><a href="https://faucet.circle.com" target="_blank" rel="noopener noreferrer">Get test USDC <ArrowUpRight size={14} /></a></div>
       </section>
     </main>
-    <footer className="site-footer"><span>Made for good food & good company.</span><span>Testnet payments only · Built with <a href="https://studio.arc.io" target="_blank" rel="noopener noreferrer">Arc Studio</a></span></footer>
+    <footer className="site-footer"><span>Made for good food & good company.</span><span>Testnet payments only</span></footer>
   </div>
 }

@@ -21,6 +21,7 @@ import { ConnectKitProvider } from 'connectkit'
 import { Toaster } from 'sonner'
 import { config } from './config'
 import App from './App'
+import { ArcStudioBadge } from './components/ArcStudioBadge'
 import { installShareSync } from './lib/share'
 import './index.css'
 
@@ -50,6 +51,7 @@ createRoot(document.getElementById('root')!).render(
           '--ck-overlay-background': 'rgba(57, 35, 29, 0.24)',
         }}>
           <App />
+          <ArcStudioBadge />
           <Toaster position="top-center" />
         </ConnectKitProvider>
       </QueryClientProvider>
