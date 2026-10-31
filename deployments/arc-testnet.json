@@ -1,0 +1,18 @@
+{
+  "chainId": 5042002,
+  "network": "Arc Testnet",
+  "rpc": "https://rpc.testnet.arc.network",
+  "checkedAt": "2026-10-31T13:46:02.559Z",
+  "usdc": {
+    "address": "0x3600000000000000000000000000000000000000",
+    "decimals": 6,
+    "bytecodeVerified": true
+  },
+  "create2Factory": {
+    "address": "0xf4a837f6eab2266eda78eacd4d93a14ab2a665a6",
+    "deployer": "0x0986Bfd653985c9Fa60a464784264444B542BfD7",
+    "transactionHash": "0xde3dacf5c409be6f65f6c7ab9d4433324a2236ba5eb3aa64b47347253a511e1e",
+    "blockNumber": "70017644"
+  },
+  "checkout": "Direct USDC ERC-20 transfer to VITE_MERCHANT_ADDRESS; the factory is reusable deployment infrastructure and is not used by checkout."
+}
